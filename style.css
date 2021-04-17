@@ -1,0 +1,111 @@
+body {
+  background-color: #e5e8e8;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  background-color: #ff8585;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+#navBar {
+  background: #00eda4;
+
+  text-align: center;
+  padding: 1px;
+}
+#navBar li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+#navBar a {
+  text-decoration: none;
+  color: #5e5f4d;
+  font-weight: 600;
+}
+
+#hero {
+  background-image: url('./images/header-bg.png');
+  min-height: 300px;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero h1 {
+  margin: auto;
+  text-align: center;
+  color: #000;
+  padding-top: 30px;
+  font-size: 50px;
+  line-height: 1.6em;
+}
+
+mark {
+  background: #00798f;
+  color: #fff;
+}
+
+.clr {
+  clear: both;
+}
+
+#main-content {
+  margin-top: 50px;
+}
+
+.main {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: justify;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: justify;
+  background-color: rgb(32, 28, 28);
+  color: #fff;
+}
+
+#footer {
+  background: #26c7fe;
+  color: #000;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    float: none;
+    width: 100%;
+  }
+  .sidebar {
+    float: none;
+    width: 100%;
+  }
+  #hero h1 {
+    padding: 30px 0;
+  }
+}
